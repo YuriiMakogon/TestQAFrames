@@ -9,10 +9,6 @@ public class Iframemain extends SetupTest{
         try {
             Thread.sleep(4000);
             loginpage.loginInput.sendKeys("yuriimakogon");
- //           loginpage.password.sendKeys("55555555"+ Thread.currentThread().getId());
-//            loginpage.enter.click();
-//            Thread.sleep(5000);
-//            loginpage.nextButton.click();
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
