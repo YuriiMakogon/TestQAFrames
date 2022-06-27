@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!--<suite name="All Test Suite">-->
+<!--    <test parallel="methods" verbose="2" preserve-order="true" name="/Users/mac/IdeaProjects/TestQAFrames/src/test/java/Iframemain.java">-->
+
+<!--        <class name = "Iframemain" />-->
+<!--    </test>-->
+<!--</suite>-->
+
+<suite name = "Parallel Testing Suite">
+<test name = "Parallel Tests" parallel = "methods" thread-count="2">
+    <classes>
+        <class name = "Iframemain" />
+    </classes>
+</test>
+</suite>
